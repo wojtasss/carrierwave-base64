@@ -17,7 +17,7 @@ This release fixes the issue that the public API of the gem was changed in 2.6.0
 ## 2.6.0
 
  - Fixed the issue with base64 string not being validated (#64, @sjdrabbani)
- - Sending a base64 string with missing or unknown MIME Type will raise `Carrierwave::Base64::UnknownMimeTypeError` (@lebedev-yury)
+ - Sending a base64 string with missing or unknown MIME Type will raise `CarrierWave::Base64::UnknownMimeTypeError` (@lebedev-yury)
 
 ## 2.5.3
 

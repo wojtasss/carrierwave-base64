@@ -1,4 +1,4 @@
-module Carrierwave
+module CarrierWave
   module Base64
     # Module with helper functions for mounting uploaders
     module MountingHelper
@@ -52,9 +52,9 @@ module Carrierwave
           return super(data) unless data.is_a?(String) &&
                                     data.strip.start_with?('data')
 
-          super Carrierwave::Base64::Base64StringIO.new(
+          super CarrierWave::Base64::Base64StringIO.new(
             data.strip,
-            Carrierwave::Base64::MountingHelper.file_name(self, options)
+            CarrierWave::Base64::MountingHelper.file_name(self, options)
           )
         end
       end

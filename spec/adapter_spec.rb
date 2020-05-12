@@ -1,4 +1,4 @@
-RSpec.describe Carrierwave::Base64::Adapter do
+RSpec.describe CarrierWave::Base64::Adapter do
   describe '.mount_base64_uploader' do
     let(:uploader) { Class.new CarrierWave::Uploader::Base }
 

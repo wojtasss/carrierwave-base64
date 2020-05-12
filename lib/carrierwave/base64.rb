@@ -6,7 +6,7 @@ require 'carrierwave/base64/mounting_helper'
 require 'carrierwave/base64/adapter'
 require 'carrierwave/base64/railtie' if defined?(Rails)
 
-module Carrierwave
+module CarrierWave
   module Base64
   end
 end

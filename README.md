@@ -1,4 +1,4 @@
-# Carrierwave::Base64
+# CarrierWave::Base64
 
 [![Gem Version](https://badge.fury.io/rb/carrierwave-base64.svg)](http://badge.fury.io/rb/carrierwave-base64)
 [![Build Status](https://travis-ci.org/y9v/carrierwave-base64.svg?branch=master)](https://travis-ci.org/y9v/carrierwave-base64)

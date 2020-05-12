@@ -1,4 +1,4 @@
-RSpec.describe Carrierwave::Base64::Base64StringIO do
+RSpec.describe CarrierWave::Base64::Base64StringIO do
   %w[application/vnd.openxmlformats-officedocument.wordprocessingml.document
      image/jpeg application/pdf audio/mpeg].each do |content_type|
     context "correct #{content_type} data" do

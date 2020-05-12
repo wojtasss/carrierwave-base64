@@ -5,7 +5,7 @@ require 'carrierwave/base64/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'carrierwave-base64'
-  spec.version       = Carrierwave::Base64::VERSION
+  spec.version       = CarrierWave::Base64::VERSION
   spec.authors       = ['Yury Lebedev']
   spec.email         = ['lebedev.yurii@gmail.com']
   spec.summary       = 'Upload images encoded as base64 to carrierwave.'

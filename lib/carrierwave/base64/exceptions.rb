@@ -1,4 +1,4 @@
-module Carrierwave
+module CarrierWave
   module Base64
     # Exception that gets raised when base64 encoded string
     # is of unknown MIME type
